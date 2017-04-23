@@ -48,5 +48,5 @@ p = Popen(cmd, stdout=PIPE, shell=True)
 for line in iter(p.stdout.readline, b''):
    sys.stdout.write(line)
    sys.stdout.flush()
-#print check_output(cmd,shell=True)
+
 
