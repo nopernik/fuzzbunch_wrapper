@@ -6,7 +6,7 @@ from subprocess import check_output,Popen, PIPE, STDOUT
 import re
 
 if not len(sys.argv[1:]):
-   print '\nUsage: fbcli module\n'
+   print '\nUsage: fbcli module|list\n'
    exit(1)
 
 fbpath = '/root/.wine/drive_c/nsa/windows'
