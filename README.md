@@ -8,8 +8,11 @@ install fuzzbunch this way: https://github.com/knightmare2600/ShadowBrokers/tree
 Set Wine's PATH environment variable to c:\[fuzzbunch-path]\windows\lib\x86-Windows
 
 #Usage:
+
 ./fbcli.py module|list
 
 ./fbcli.py eternalblue --targetip 1.1.1.1
+
 ./fbcli.py doublepulsar --help
+
 ./fbcli.py doublepulsar --targetip 1.1.1.1 --function ping
